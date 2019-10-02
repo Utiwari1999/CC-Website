@@ -1,0 +1,98 @@
+
+body{
+  background:#252827;
+  font-size: 16px;
+}
+
+p{
+  font-weight: 300;
+}
+
+h1{
+  font-family: 'Saira', sans-serif;
+  letter-spacing: 1.5px;
+  color: white;
+  font-weight: 400;
+  font-size: 2.4em;
+}
+
+#timeline{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.timeline1{
+  border-left: 4px solid #004ffc;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: fade(white,3%);
+  color: fade(white,80%);
+  font-family: 'Saira', sans-serif;
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 30%;
+
+  h1 {
+   font-family: 'Saira',sans-serif;
+   letter-spacing: 1.5px;
+   font-weight: 100;
+   font-size: 1.4em;
+   color: white;
+  }
+
+  h2, h3 {
+   font-family: 'Saira',sans-serif;
+   letter-spacing: 1.5px;
+   font-weight: 400;
+   font-size: 1.4em;
+   color: white;
+  }
+
+.event {
+   border-bottom: 1px dashed fade(white, 10%);
+   padding-bottom: (25px);
+   margin-bottom: 50px;
+   position: relative;
+
+   &:last-of-type {
+     padding-bottom: 0;
+     margin-bottom: 0;
+     border: none;
+   }
+
+   :before, :after {
+     position: absolute;
+     display: block;
+     top: 0;
+   }
+
+   :before {
+     left: (((120px * 0.6) + 50px + 4px + 11px + (4px * 2)) * 1.5) * -1;
+     color: fade(white, 40%);
+     content: attr(data-date);
+     text-align: right;
+     font-weight: 100;
+     font-size: 0.9em;
+     min-width: 120px;
+     font-family: 'Saira', sans-serif;
+   }
+
+   :after {
+     box-shadow: 0 0 0 4px fade(white,100%);
+     left: (5px + 4px + (11px * 0.35)) * -1;
+     background: lighten(#252827,5%);
+     border-radius: 50%;
+     height: 11px;
+     width: 11px;
+     content: "";
+     top: 5px;
+   }
+}
+}

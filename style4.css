@@ -1,0 +1,16 @@
+/*heading formatting can be adjusted here*/
+h1{
+  font-family: 'Product Sans', serif;
+  letter-spacing: normal;
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
+}
+/* Set a background color */
+body {
+  background-color: #1B2631;
+  background: fade(#1B2631,3%);
+  color: white;
+  font-family: 'Product Sans', serif;
+}
