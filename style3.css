@@ -17,9 +17,8 @@ h2{
 }
 /* Set a background color */
 body {
-  background-color: #1B2631;
-  background: fade(#1B2631,3%);
-  color: fade(#1B2631 ,80%);
+  background-image: url(Background3.jpg);
+  background-size:contain;
   font-family: 'Product Sans', serif;
 }
 

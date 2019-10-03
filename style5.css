@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box1-sizing:inherit;
+}
+.row{
+  align-items: center;
+  float:center;
+  position:relative;
+  float: none;
+  align-content: center;
+  display: table;
+  margin-left: 110px;
+  margin-right:auto;
+}
+
+.column {
+  float:left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 50px 50px;
+  border-spacing: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    background-color: green;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #273746;
+  padding: 10px 50px;
+  float: left;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+body{
+  background-image: url(Background3.jpg);
+  background-size:contain;
+  color: white;
+  font-family: 'Product Sans', serif;
+  align-content: center;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-family: 'Product Sans', serif;
+  color: #DC7633;
+  font-weight: 400;
+  font-size: 2.2em;
+}
+h2{
+  color: #DC7633;
+  font-weight: 400;
+  font-size: 1.5em;
+}
