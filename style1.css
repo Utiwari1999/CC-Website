@@ -3,17 +3,12 @@
   padding:0;
   font-family:verdana;
 }
-<<<<<<< HEAD
 p{
   margin-top: 250px;
 
 }
 body {
   background-image: url(Background5.jpg);
-=======
-body {
-  background-image: url(Background2.jpg);
->>>>>>> 5a4ac25b78a9c894cbf25c7ed84d313e6d35bb25
   background-size:cover;
   font-family: 'Product Sans', serif;
 }
