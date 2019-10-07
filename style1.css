@@ -9,7 +9,7 @@ p{
 }
 body {
   background-image: url(Background5.jpg);
-  background-size:cover;
+  background-size:contain;
   font-family: 'Product Sans', serif;
 }
 nav{
