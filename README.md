@@ -1,2 +1,5 @@
 # CC-Website
-IIITV Coding Club Website to keep a track on its events and projects.
+
+This website is to keep track of IIIT Vadodara's coding club events and workshops. 
+
+
